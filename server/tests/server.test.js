@@ -143,7 +143,7 @@ describe('DELETE /todos/:id', () => {
 });
 
 describe('PATCH /todos/:id', () => {
-  it('should update the todo', (done) => {    
+  it('should update the todo', (done) => {
     const hexId = todos[0]._id.toHexString();
 
     const updatedTodo = {
@@ -167,7 +167,7 @@ describe('PATCH /todos/:id', () => {
     const hexId = todos[1]._id.toHexString();
 
     const updatedTodo = {
-      text: "New todo for you young fella",
+      text: "New todo for you young fella test db",
       completed: false
     };
 
